@@ -25,9 +25,8 @@ function onFirstGesture(event){
 }
 function startMusic(){
   musicToggle.hidden=false;
-  if(!musicMuted)music.play().catch(()=>musicToggle.classList.add('needs-tap'));
+  if(!musicMuted)music.play().catch(()=>{});
 }
-music.addEventListener('play',()=>musicToggle.classList.remove('needs-tap'));
 function stopWaitingForGesture(){
   musicGestures.forEach(type=>document.removeEventListener(type,onFirstGesture,true));
 }
