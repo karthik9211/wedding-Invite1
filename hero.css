@@ -1,3 +1,34 @@
+.desktop-notice {
+  display: none;
+}
+
+@media (min-width: 761px) {
+  body > :not(.desktop-notice) {
+    display: none !important;
+  }
+
+  .desktop-notice {
+    display: grid;
+    min-height: 100vh;
+    min-height: 100svh;
+    place-items: center;
+    padding: 32px;
+    background: #fff7eb;
+    text-align: center;
+  }
+
+  .desktop-notice p {
+    max-width: 620px;
+    margin: 0;
+    padding: 32px 40px;
+    border: 1px solid #b7802d;
+    outline: 1px solid #b7802d;
+    outline-offset: 8px;
+    color: #7d1626;
+    font: 500 clamp(26px, 3vw, 42px)/1.3 'Cormorant Garamond', serif;
+  }
+}
+
 .landing-screen {
   position: fixed;
   z-index: 200;
