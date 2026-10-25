@@ -1628,7 +1628,7 @@ body.landing-active {
 
   .hero-prayer {
     position: relative;
-    top: auto;
+    top: 5px;
     left: auto;
     width: 84vw;
     flex: 0 0 auto;
@@ -1644,7 +1644,7 @@ body.landing-active {
     flex: 0 0 auto;
     margin-top: -8px;
     font-size: clamp(11px, 3.5vw, 14px);
-    transform: translateY(14px);
+    transform: translateY(19px);
   }
 
   .hero-auspicious-deity {
