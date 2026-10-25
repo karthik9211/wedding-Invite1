@@ -1161,7 +1161,8 @@ body.landing-active {
   color: var(--wine);
 }
 
-.rsvp-form input {
+.rsvp-form input,
+.rsvp-form select {
   min-height: 62px;
   padding: 16px 18px;
   border-color: #d8b88d;
@@ -1403,7 +1404,8 @@ body.landing-active {
     translate: 0 var(--scroll-parallax-y, 0px);
   }
 
-  .rsvp-form input {
+  .rsvp-form input,
+  .rsvp-form select {
     min-height: 56px;
     font-size: 16px;
   }
